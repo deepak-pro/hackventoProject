@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Registration Form</title>
+		<link rel="stylesheet" type="text/css" href="register.css">
+	</head>
+<body>
+	<center>
+	<h1 align="center">REGISTRATION FORM </h1>
+	<form method="post" action="register.php">
+	<table class=table >
+			<tr>
+				<th>
+				Name:</th><td> <input type="text" name="name"></td>
+			</tr><br>	
+			<tr>	
+			    <th>Age:</th> <td>  <input type="number" name="age"></td>
+		    </tr><br>
+		  <tr>  
+		       <th> Gender:</th>  <td><input type="radio" name="gender" value="M" checked>M 
+                <input type="radio" name="gender" value="F"> F
+                </td>
+         </tr><br>
+         <tr>
+        	<th>Contact no:</th><td>  <input type="number" name="contact" value="+91"><br><br></td>
+        </tr><br>
+        <tr>
+        <th>Choose your Doctor:</th> <td><select>
+        										<option>Dr.Kailash Bhatia </option>		
+        										<option>Dr.Ajay Tiwari</option>
+        										<option>Dr.Narendra Gokhale</option>
+        										<option>Dr.Girish Kumar</option>
+        								</select></td>
+        </tr>
+       </table><br><br><br>
+         <button>					
+         <input type="submit" value="Submit" align="center">
+         </button>
+	</form>
+	</center>
+</body>	
+</html>

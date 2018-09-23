@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title> doctors </title>
+		<link rel="stylesheet" type="text/css" href="indexcss.css">
+	</head>
+	<body>
+		<div class="top-container">
+  			<h1><u>City Hospital</u></h1>
+  			<h1 align=center>  Welcome to our online appointment scheduling services</h1>
+		</div>
+		<div class="header" id="head">
+			<div class="login">
+					<a href="login.html">
+						Login
+					</a>
+			</div>
+		</div>
+		<div class="dr_details">
+			<p style="font-family: "Trebuchet MS", Helvetica, sans-serif;font-size: 30px;color:ivory">
+				Our specialised doctors
+			</p>
+		</div>
+			<div class="content">
+		<center>
+		<div class="detail">
+			<p>
+				Dr.Kailash Bhatia<br> 
+				General Physician
+			</p>
+		</div><br>
+		<div class="detail">
+			<p>
+				Dr.Ajay Tiwari <br>
+				ENT Specialist
+			</p>
+		</div><br>
+		<div class="detail">
+			<p>
+				Dr.Narendra Gokhale<br>
+				Dermatologist
+			</p>
+		</div><br>
+		<div class="detail">
+			<p>
+				Dr.Girish Kumar<br> 
+				Dentist
+			</p>
+		</div><br>
+	</center></div>
+		<center>
+			<div class="appointment">
+					<a href="registration.html">
+						Get Appointment
+					</a>
+			</div>
+		</center>
+
+</body>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("head");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</html>
+		
